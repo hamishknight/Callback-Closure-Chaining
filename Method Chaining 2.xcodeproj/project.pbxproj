@@ -14,6 +14,7 @@
 		1C22F5661CE0BC6200E6001B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C22F5641CE0BC6200E6001B /* LaunchScreen.storyboard */; };
 		1C22F5711CE0BC6200E6001B /* Method_Chaining_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C22F5701CE0BC6200E6001B /* Method_Chaining_2Tests.swift */; };
 		1C22F57C1CE0BC6200E6001B /* Method_Chaining_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C22F57B1CE0BC6200E6001B /* Method_Chaining_2UITests.swift */; };
+		1C22F58A1CE0DAB900E6001B /* RequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C22F5891CE0DAB900E6001B /* RequestHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1C22F5771CE0BC6200E6001B /* Method Chaining 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Method Chaining 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C22F57B1CE0BC6200E6001B /* Method_Chaining_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Method_Chaining_2UITests.swift; sourceTree = "<group>"; };
 		1C22F57D1CE0BC6200E6001B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C22F5891CE0DAB900E6001B /* RequestHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				1C22F55B1CE0BC6200E6001B /* AppDelegate.swift */,
 				1C22F55D1CE0BC6200E6001B /* ViewController.swift */,
+				1C22F5891CE0DAB900E6001B /* RequestHandler.swift */,
 				1C22F55F1CE0BC6200E6001B /* Main.storyboard */,
 				1C22F5621CE0BC6200E6001B /* Assets.xcassets */,
 				1C22F5641CE0BC6200E6001B /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				1C22F55E1CE0BC6200E6001B /* ViewController.swift in Sources */,
 				1C22F55C1CE0BC6200E6001B /* AppDelegate.swift in Sources */,
+				1C22F58A1CE0DAB900E6001B /* RequestHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +488,7 @@
 				1C22F5821CE0BC6200E6001B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C22F5831CE0BC6200E6001B /* Build configuration list for PBXNativeTarget "Method Chaining 2Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				1C22F5851CE0BC6200E6001B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C22F5861CE0BC6200E6001B /* Build configuration list for PBXNativeTarget "Method Chaining 2UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				1C22F5881CE0BC6200E6001B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
