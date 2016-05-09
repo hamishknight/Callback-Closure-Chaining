@@ -16,9 +16,9 @@ class ViewController: UIViewController {
         
         let input = RequestHandler.Input(foo: 5, bar: "baz")
         
-        RequestHandler.doRequest(input).success{result in
+        RequestHandler.doRequest(input).success {result in
             print("success, with:", result)
-        }.failure{
+        }.failure {
             print("fail :(")
         }
         

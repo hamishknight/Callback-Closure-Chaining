@@ -60,11 +60,16 @@ class ResultHandler {
     func invokeCallbacks(result:RequestHandler.Result) {
         
         switch result {
-        case .Success(let result):
-            _successes.forEach{$0(result)}
+        case .Success(let output):
+            _successes.forEach{$0(output)}
         case .Failure:
             _failures.forEach{$0()}
         }
+    }
+    
+    // remove all callbacks – could call this from within invoke callbacks
+    // depending on the re-usability of the class
+    func removeAllCallbacks() {
         _successes.removeAll()
         _failures.removeAll()
     }
