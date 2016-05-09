@@ -60,12 +60,12 @@ class ResultHandler {
         
         switch result {
         case .Success(let result):
-            self._successes.forEach{$0(result)}
+            _successes.forEach{$0(result)}
         case .Failure:
-            self._failures.forEach{$0()}
+            _failures.forEach{$0()}
         }
-        self._successes.removeAll()
-        self._failures.removeAll()
+        _successes.removeAll()
+        _failures.removeAll()
     }
     
     /// appends a new success callback to the result handler's successes array
@@ -92,8 +92,8 @@ class ViewController: UIViewController {
         
         RequestHandler.doRequest(input).success{result in
             print("success, with:", result)
-            }.failure{
-                print("fail :(")
+        }.failure{
+            print("fail :(")
         }
     }
 
