@@ -21,6 +21,7 @@ class ViewController: UIViewController {
         }.failure{
             print("fail :(")
         }
+        
     }
 
     override func didReceiveMemoryWarning() {
